@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 735857d322c364b3580d271c670528fa
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _SkyCube: {fileID: 8900000, guid: b692a498a0379a341872703d288b04af, type: 3}
+  - _Noise: {fileID: 2800000, guid: 945bf01826bdd402fada602791184e53, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

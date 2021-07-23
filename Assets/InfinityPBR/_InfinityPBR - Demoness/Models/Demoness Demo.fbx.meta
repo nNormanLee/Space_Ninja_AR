@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: a053697ebe1254aac826f71be3200df8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: anger_bone1
+    100002: anger_bone2
+    100004: Anklerings
+    100006: Base_sucubus
+    100008: Body
+    100010: brow_L1
+    100012: brow_L2
+    100014: brow_L3
+    100016: brow_R1
+    100018: brow_R2
+    100020: brow_R3
+    100022: cheeck_L
+    100024: cheeck_R
+    100026: Collar
+    100028: CollarringA
+    100030: CollarringB
+    100032: Collarstrap
+    100034: Earpiercings
+    100036: Eyeballs
+    100038: Eyecovers
+    100040: Eyelashes
+    100042: Head
+    100044: Head_end
+    100046: Head_end1
+    100048: Head_jow
+    100050: HornC
+    100052: Hornrings
+    100054: HornsA
+    100056: HornsB
+    100058: Left_ankle
+    100060: Left_arm
+    100062: Left_elbow
+    100064: Left_eye
+    100066: Left_hand
+    100068: Left_handIndex1
+    100070: Left_handIndex2
+    100072: Left_handIndex3
+    100074: Left_handIndex4
+    100076: Left_handMiddle1
+    100078: Left_handMiddle2
+    100080: Left_handMiddle3
+    100082: Left_handMiddle4
+    100084: Left_handPinky1
+    100086: Left_handPinky2
+    100088: Left_handPinky3
+    100090: Left_handPinky4
+    100092: Left_handRing1
+    100094: Left_handRing2
+    100096: Left_handRing3
+    100098: Left_handRing4
+    100100: Left_handThumb1
+    100102: Left_handThumb2
+    100104: Left_handThumb3
+    100106: Left_handThumb4
+    100108: Left_knee
+    100110: left_shoulder
+    100112: Left_thig
+    100114: Left_toe
+    100116: Left_toe_END
+    100118: Lipstuds
+    100120: Lowermouth
+    100122: Neck1
+    100124: Neck_chain
+    100126: Neck_chain2
+    100128: Neck_chain3
+    100130: pelvis
+    100132: right_ankle
+    100134: Right_arm
+    100136: Right_elbow
+    100138: Right_eye
+    100140: Right_hand
+    100142: Right_handIndex1
+    100144: Right_handIndex2
+    100146: Right_handIndex3
+    100148: Right_handIndex4
+    100150: Right_handMiddle1
+    100152: Right_handMiddle2
+    100154: Right_handMiddle3
+    100156: Right_handMiddle4
+    100158: Right_handPinky1
+    100160: Right_handPinky2
+    100162: Right_handPinky3
+    100164: Right_handPinky4
+    100166: Right_handRing1
+    100168: Right_handRing2
+    100170: Right_handRing3
+    100172: Right_handRing4
+    100174: Right_handThumb1
+    100176: Right_handThumb2
+    100178: Right_handThumb3
+    100180: Right_handThumb4
+    100182: Right_knee
+    100184: right_shoulder
+    100186: Right_thig
+    100188: right_toe
+    100190: Right_toe_END
+    100192: Spine1
+    100194: Spine2
+    100196: Spine3
+    100198: //RootNode
+    100200: Tail
+    100202: Tail1
+    100204: Tail10
+    100206: Tail2
+    100208: Tail3
+    100210: Tail4
+    100212: Tail5
+    100214: Tail6
+    100216: Tail7
+    100218: Tail8
+    100220: Tail9
+    100222: Tailring
+    100224: Tongue
+    100226: tongue1
+    100228: tongue2
+    100230: Uppermouth
+    100232: Wing_R1
+    100234: Wing_R10
+    100236: Wing_R11
+    100238: Wing_R12
+    100240: Wing_R13
+    100242: Wing_R14
+    100244: Wing_R15
+    100246: Wing_R17
+    100248: Wing_R18
+    100250: Wing_R19
+    100252: Wing_R2
+    100254: Wing_R20
+    100256: Wing_R21
+    100258: Wing_R22
+    100260: Wing_R23
+    100262: Wing_R24
+    100264: Wing_R25
+    100266: Wing_R26
+    100268: Wing_R27
+    100270: Wing_R28
+    100272: Wing_R29
+    100274: Wing_R3
+    100276: Wing_R30
+    100278: Wing_R31
+    100280: Wing_R32
+    100282: Wing_R33
+    100284: Wing_R34
+    100286: Wing_R35
+    100288: Wing_R36
+    100290: Wing_R37
+    100292: Wing_R38
+    100294: Wing_R39
+    100296: Wing_R4
+    100298: Wing_R40
+    100300: Wing_R41
+    100302: Wing_R5
+    100304: Wing_R6
+    100306: Wing_R7
+    100308: Wing_R8
+    100310: Wing_R9
+    100312: Wingbones
+    100314: Wingmembranes1
+    100316: Wingmembranes2
+    400000: anger_bone1
+    400002: anger_bone2
+    400004: Anklerings
+    400006: Base_sucubus
+    400008: Body
+    400010: brow_L1
+    400012: brow_L2
+    400014: brow_L3
+    400016: brow_R1
+    400018: brow_R2
+    400020: brow_R3
+    400022: cheeck_L
+    400024: cheeck_R
+    400026: Collar
+    400028: CollarringA
+    400030: CollarringB
+    400032: Collarstrap
+    400034: Earpiercings
+    400036: Eyeballs
+    400038: Eyecovers
+    400040: Eyelashes
+    400042: Head
+    400044: Head_end
+    400046: Head_end1
+    400048: Head_jow
+    400050: HornC
+    400052: Hornrings
+    400054: HornsA
+    400056: HornsB
+    400058: Left_ankle
+    400060: Left_arm
+    400062: Left_elbow
+    400064: Left_eye
+    400066: Left_hand
+    400068: Left_handIndex1
+    400070: Left_handIndex2
+    400072: Left_handIndex3
+    400074: Left_handIndex4
+    400076: Left_handMiddle1
+    400078: Left_handMiddle2
+    400080: Left_handMiddle3
+    400082: Left_handMiddle4
+    400084: Left_handPinky1
+    400086: Left_handPinky2
+    400088: Left_handPinky3
+    400090: Left_handPinky4
+    400092: Left_handRing1
+    400094: Left_handRing2
+    400096: Left_handRing3
+    400098: Left_handRing4
+    400100: Left_handThumb1
+    400102: Left_handThumb2
+    400104: Left_handThumb3
+    400106: Left_handThumb4
+    400108: Left_knee
+    400110: left_shoulder
+    400112: Left_thig
+    400114: Left_toe
+    400116: Left_toe_END
+    400118: Lipstuds
+    400120: Lowermouth
+    400122: Neck1
+    400124: Neck_chain
+    400126: Neck_chain2
+    400128: Neck_chain3
+    400130: pelvis
+    400132: right_ankle
+    400134: Right_arm
+    400136: Right_elbow
+    400138: Right_eye
+    400140: Right_hand
+    400142: Right_handIndex1
+    400144: Right_handIndex2
+    400146: Right_handIndex3
+    400148: Right_handIndex4
+    400150: Right_handMiddle1
+    400152: Right_handMiddle2
+    400154: Right_handMiddle3
+    400156: Right_handMiddle4
+    400158: Right_handPinky1
+    400160: Right_handPinky2
+    400162: Right_handPinky3
+    400164: Right_handPinky4
+    400166: Right_handRing1
+    400168: Right_handRing2
+    400170: Right_handRing3
+    400172: Right_handRing4
+    400174: Right_handThumb1
+    400176: Right_handThumb2
+    400178: Right_handThumb3
+    400180: Right_handThumb4
+    400182: Right_knee
+    400184: right_shoulder
+    400186: Right_thig
+    400188: right_toe
+    400190: Right_toe_END
+    400192: Spine1
+    400194: Spine2
+    400196: Spine3
+    400198: //RootNode
+    400200: Tail
+    400202: Tail1
+    400204: Tail10
+    400206: Tail2
+    400208: Tail3
+    400210: Tail4
+    400212: Tail5
+    400214: Tail6
+    400216: Tail7
+    400218: Tail8
+    400220: Tail9
+    400222: Tailring
+    400224: Tongue
+    400226: tongue1
+    400228: tongue2
+    400230: Uppermouth
+    400232: Wing_R1
+    400234: Wing_R10
+    400236: Wing_R11
+    400238: Wing_R12
+    400240: Wing_R13
+    400242: Wing_R14
+    400244: Wing_R15
+    400246: Wing_R17
+    400248: Wing_R18
+    400250: Wing_R19
+    400252: Wing_R2
+    400254: Wing_R20
+    400256: Wing_R21
+    400258: Wing_R22
+    400260: Wing_R23
+    400262: Wing_R24
+    400264: Wing_R25
+    400266: Wing_R26
+    400268: Wing_R27
+    400270: Wing_R28
+    400272: Wing_R29
+    400274: Wing_R3
+    400276: Wing_R30
+    400278: Wing_R31
+    400280: Wing_R32
+    400282: Wing_R33
+    400284: Wing_R34
+    400286: Wing_R35
+    400288: Wing_R36
+    400290: Wing_R37
+    400292: Wing_R38
+    400294: Wing_R39
+    400296: Wing_R4
+    400298: Wing_R40
+    400300: Wing_R41
+    400302: Wing_R5
+    400304: Wing_R6
+    400306: Wing_R7
+    400308: Wing_R8
+    400310: Wing_R9
+    400312: Wingbones
+    400314: Wingmembranes1
+    400316: Wingmembranes2
+    4300000: CollarringB
+    4300002: CollarringA
+    4300004: Collarstrap
+    4300006: HornC
+    4300008: Uppermouth
+    4300010: Tongue
+    4300012: Lowermouth
+    4300014: Body
+    4300016: Eyelashes
+    4300018: Eyecovers
+    4300020: Eyeballs
+    4300022: HornsB
+    4300024: HornsA
+    4300026: Hornrings
+    4300028: Lipstuds
+    4300030: Earpiercings
+    4300032: Collar
+    4300034: Anklerings
+    4300036: Wingmembranes2
+    4300038: Wingmembranes1
+    4300040: Tail
+    4300042: Tailring
+    4300044: Wingbones
+    7400000: Attack1A
+    7400002: Attack1B
+    7400004: Attack2
+    7400006: Attack3
+    7400008: Attack4
+    7400010: Dodge
+    7400012: GotHit
+    7400014: Idle
+    7400016: IdleBreak
+    7400018: Taunt
+    7400020: Walk
+    7400022: WalkBackward
+    7400024: Death
+    9500000: //RootNode
+    13700000: Anklerings
+    13700002: Body
+    13700004: Collar
+    13700006: CollarringA
+    13700008: CollarringB
+    13700010: Collarstrap
+    13700012: Earpiercings
+    13700014: Eyeballs
+    13700016: Eyecovers
+    13700018: Eyelashes
+    13700020: HornC
+    13700022: Hornrings
+    13700024: HornsA
+    13700026: HornsB
+    13700028: Lipstuds
+    13700030: Lowermouth
+    13700032: Tail
+    13700034: Tailring
+    13700036: Tongue
+    13700038: Uppermouth
+    13700040: Wingbones
+    13700042: Wingmembranes1
+    13700044: Wingmembranes2
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body_set
+    second: {fileID: 2100000, guid: ab8741122f9864bbfa63e78733e60e7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyelashes_set
+    second: {fileID: 2100000, guid: 6522f1e5424204ddcac8cd95dc35bcef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: items_set
+    second: {fileID: 2100000, guid: d571bd830eeb14a038111aa591c8404b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack1A
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.28425658
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack1B
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 108
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.40087464
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack2
+      takeName: Take 001
+      firstFrame: 109
+      lastFrame: 197
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.36376244
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack3
+      takeName: Take 001
+      firstFrame: 198
+      lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.53226495
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack4
+      takeName: Take 001
+      firstFrame: 256
+      lastFrame: 324
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.20694329
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.43895417
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dodge
+      takeName: Take 001
+      firstFrame: 327
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.093381055
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GotHit
+      takeName: Take 001
+      firstFrame: 382
+      lastFrame: 408
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1021
+      lastFrame: 1118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 1120
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IdleBreak
+      takeName: Take 001
+      firstFrame: 508
+      lastFrame: 713
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Taunt
+      takeName: Take 001
+      firstFrame: 715
+      lastFrame: 853
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.30838478
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.48185903
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1130
+      lastFrame: 1158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 1130
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkBackward
+      takeName: Take 001
+      firstFrame: 1165
+      lastFrame: 1201
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 921
+      lastFrame: 1011
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.00298055
+        functionName: TurnOnBlend
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Base_sucubus
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

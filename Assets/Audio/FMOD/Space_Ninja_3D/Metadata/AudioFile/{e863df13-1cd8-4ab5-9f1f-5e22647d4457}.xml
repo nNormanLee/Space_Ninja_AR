@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{e863df13-1cd8-4ab5-9f1f-5e22647d4457}">
+		<property name="assetPath">
+			<value>2001 Requiem for Soprano 0002 [2020-11-28 215658].wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>370.42133333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dddbb448-d93f-4404-ae03-2defcc8feb59}</destination>
+		</relationship>
+	</object>
+</objects>

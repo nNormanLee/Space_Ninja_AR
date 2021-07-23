@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{ef91b151-83f5-4c11-9aa9-da9e0fde50a2}">
+		<property name="assetPath">
+			<value>Bass Synth Space Ninja 0003 [2020-11-28 222043].wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>51.722666666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dddbb448-d93f-4404-ae03-2defcc8feb59}</destination>
+		</relationship>
+	</object>
+</objects>

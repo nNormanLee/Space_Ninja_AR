@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{3e817e8e-b292-4afa-b6b8-f30f4faaac12}">
+		<property name="assetPath">
+			<value>Black Melody Rough 0001 [2020-11-29 185329].wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>188.94933333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dddbb448-d93f-4404-ae03-2defcc8feb59}</destination>
+		</relationship>
+	</object>
+</objects>

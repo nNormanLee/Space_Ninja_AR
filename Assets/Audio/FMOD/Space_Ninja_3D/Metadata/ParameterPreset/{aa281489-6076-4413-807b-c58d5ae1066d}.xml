@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{aa281489-6076-4413-807b-c58d5ae1066d}">
+		<property name="name">
+			<value>DistToSun</value>
+		</property>
+		<relationship name="folder">
+			<destination>{092a2ed1-2c85-416a-b3a1-40cef2fb4dd3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2eef8599-f055-47a7-ae16-0e6a65006ce2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2eef8599-f055-47a7-ae16-0e6a65006ce2}">
+		<property name="maximum">
+			<value>750</value>
+		</property>
+		<property name="initialValue">
+			<value>750</value>
+		</property>
+	</object>
+</objects>
