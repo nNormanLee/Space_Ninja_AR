@@ -12,6 +12,7 @@ public class PlayerMovement : GravityBody
     public int invert = -1;
     public Vector3 sun = Vector3.zero;
     public MusicControl musicSystem;
+    public float jumpPointDebugger = .01f;
     
    
 
@@ -21,6 +22,7 @@ public class PlayerMovement : GravityBody
 
     #region Private Properties
     private bool _jump = false;
+    
     #endregion
 
 
@@ -56,7 +58,7 @@ public class PlayerMovement : GravityBody
         
         attractor = FindClosestGravity().GetComponent<GravityAttractor>();
         target = FindNextClosestGravity().GetComponent<GravityAttractor>();
-        FindJumpPoint();
+        //FindJumpPoint();
         Debug.Log(FindJumpPoint());
 
         //attractor
@@ -178,14 +180,12 @@ public class PlayerMovement : GravityBody
 
     public Vector3 FindJumpPoint()
     {
-
-        Vector3 jumpPoint = Vector3.Slerp(attractor.transform.position, target.transform.position, attractor.transform.localScale.x*.02f);// + attractor.transform.localScale;
-
-
-
+        
+        Vector3 jumpPoint = jumpPoint = Vector3.Slerp(attractor.transform.position, target.transform.position, attractor.transform.localScale.x * jumpPointDebugger);
 
         return jumpPoint;
 
+        //jumpPoint = Vector3.Slerp(attractor.transform.position, target.transform.position, attractor.transform.localScale.x * .1f);// + attractor.transform.localScale;
     }
    
    
