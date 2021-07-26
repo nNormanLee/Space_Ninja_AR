@@ -262,7 +262,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7174179859212526070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Audio/FMOD/Space_Ninja_3D/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637598977900000000
+  lastModified: 637626538320000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -666,7 +666,7 @@ MonoBehaviour:
   - {fileID: 3885123034058301825}
   StringsBanks:
   - {fileID: -421877046758999872}
-  stringsBankWriteTime: 637598977900000000
+  stringsBankWriteTime: 637626538320000000
   cacheVersion: 5
 --- !u!114 &60379620140202328
 MonoBehaviour:
@@ -708,8 +708,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 5368567079896597865}
-  - {fileID: -7185300558598935090}
+  - {fileID: 7124303662292510900}
+  - {fileID: 2621246147769305597}
   MinDistance: 0
   MaxDistance: 0
   Length: 117209
@@ -993,6 +993,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &2621246147769305597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/DistToSun
+  m_EditorClassIdentifier: 
+  Name: DistToSun
+  Min: 0
+  Max: 750
+  Default: 750
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3378393303977718481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1067,7 +1087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Audio/FMOD/Space_Ninja_3D/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637598977900000000
+  lastModified: 637626538320000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1130,7 +1150,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &5688591396082862880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1191,6 +1211,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7124303662292510900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Next
+  m_EditorClassIdentifier: 
+  Name: Next
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7207472018203832155
 MonoBehaviour:
   m_ObjectHideFlags: 0
