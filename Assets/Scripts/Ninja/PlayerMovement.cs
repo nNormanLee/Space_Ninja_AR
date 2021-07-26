@@ -4,6 +4,7 @@ public class PlayerMovement : GravityBody
 {
 
     #region Public Properties
+    public GravityAttractor target = null;
     public float maxSpeed = 15f;
     public float force = 12f;
     public float jumpSpeed = 1f;
@@ -11,11 +12,14 @@ public class PlayerMovement : GravityBody
     public int invert = -1;
     public Vector3 sun = Vector3.zero;
     public MusicControl musicSystem;
+    
+   
+
 
 
     #endregion
 
-    #region Public Properties
+    #region Private Properties
     private bool _jump = false;
     #endregion
 
@@ -51,6 +55,9 @@ public class PlayerMovement : GravityBody
     {
         
         attractor = FindClosestGravity().GetComponent<GravityAttractor>();
+        target = FindNextClosestGravity().GetComponent<GravityAttractor>();
+        FindJumpPoint();
+        Debug.Log(FindJumpPoint());
 
         //attractor
         if (attractor != null)
@@ -68,7 +75,7 @@ public class PlayerMovement : GravityBody
                 GetComponent<Rigidbody>().AddForce(transform.rotation * Vector3.right * HorizontalForce);
 
                 //**To move in 3 dimensions around the Attractor Objects add this
-                // GetComponent<Rigidbody>().AddForce(transform.rotation * Vector3.forward * (VerticalForce * invert));
+                 GetComponent<Rigidbody>().AddForce(transform.rotation * Vector3.forward * (VerticalForce * invert));
             }
             else
             {
@@ -76,7 +83,7 @@ public class PlayerMovement : GravityBody
                 GetComponent<Rigidbody>().AddForce(transform.rotation * Vector3.right * ((Input.acceleration.x * 6) * force));
 
                 //**To move in 3 dimensions around the Attractor Objects add this
-                //GetComponent<Rigidbody>().AddForce(transform.rotation * Vector3.forward * ((Input.acceleration.y * 6) * force) * invert);
+                GetComponent<Rigidbody>().AddForce(transform.rotation * Vector3.forward * ((Input.acceleration.y * 6) * force) * invert);
             }
 
         }
@@ -127,10 +134,10 @@ public class PlayerMovement : GravityBody
         planets = GameObject.FindGameObjectsWithTag("Gravity");
 
         float distance = Mathf.Infinity;
-        Vector3 position = transform.position;
+        //Vector3 position = transform.position;
         foreach (GameObject planet in planets)
         {
-            Vector3 diff = planet.transform.position - position;
+            Vector3 diff = planet.transform.position - transform.position;
             float curDistance = diff.sqrMagnitude;
             if (curDistance < distance)
             {
@@ -142,5 +149,44 @@ public class PlayerMovement : GravityBody
         return closest;
 
     }
+
+    //find closest gravity attractor object
+    public GameObject FindNextClosestGravity()
+    {
+
+        GameObject nextClosest = null;
+        GameObject[] planets;
+        planets = GameObject.FindGameObjectsWithTag("Gravity");
+
+        float distance = Mathf.Infinity;
+        Vector3 position = attractor.transform.position;
+      
+        foreach (GameObject planet in planets)
+        {
+            Vector3 diff = planet.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+            if ((curDistance < distance) && (curDistance != 0))
+            {
+                nextClosest = planet;
+                distance = curDistance;
+            }
+        }
+
+        return nextClosest;
+        
+    }
+
+    public Vector3 FindJumpPoint()
+    {
+
+        Vector3 jumpPoint = Vector3.Slerp(attractor.transform.position, target.transform.position, attractor.transform.localScale.x*.02f);// + attractor.transform.localScale;
+
+
+
+
+        return jumpPoint;
+
+    }
+   
    
 }
