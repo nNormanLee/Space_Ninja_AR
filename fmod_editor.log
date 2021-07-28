@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000019BA172D338 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000020A8378B408 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -16,8 +16,146 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[WRN] FMOD_OS_Net_Listen                       : Cannot listen for connections, port 9264 is currently in use.
+[WRN] FMOD_OS_Net_Listen                       : Cannot listen for connections, port 9264 is currently in use.
+[LOG] SystemI::createSound                     : filename = Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000020A321D9368 : node = 0000020A34EEECC0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000020AA61907E8.  list count = 0
+[LOG] SystemI::createSound                     : filename = Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000020A321D9368
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0000020AC968D748 : node = 0000020A34EEEE00
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000020AA61907E8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9858432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7744
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000020A34EEEDD0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Synth Space Ninja 0006 [2020-11-28 224302]', format=5, channels=2, frequency=48000, lengthbytes=537184, lengthpcm=2586112, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.247681.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000020A321D9368
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000020AC968D748
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9858432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7744
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000020A34EEEF10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 697
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Pad Synth Space NInja 0003 [2020-11-28 223133]', format=5, channels=2, frequency=48000, lengthbytes=492416, lengthpcm=2575360, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.185181.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000020AC968D748
+[LOG] SoundI::release                          : Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020A04848188)
+[LOG] SoundI::release                          :     Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020A2CA56088)
+[LOG] SoundI::release                          :     Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020A321D8E58)
+[LOG] SoundI::release                          : Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020A04847FD8)
+[LOG] SoundI::release                          :     Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020A2CA568A8)
+[LOG] SoundI::release                          :     Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020A2CA78D48)
+[WRN] FMOD_OS_Net_Listen                       : Cannot listen for connections, port 9264 is currently in use.
+[WRN] FMOD_OS_Net_Listen                       : Cannot listen for connections, port 9264 is currently in use.
+[LOG] SystemI::createSound                     : filename = Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000020AC968D598 : node = 0000020A34EEEB80
+[LOG] SystemI::createSound                     : add node to async list : head = 0000020AA61907E8.  list count = 0
+[LOG] SystemI::createSound                     : filename = Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000020AC968D598
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0000020AC968DC58 : node = 0000020A34EEEF40
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000020AA61907E8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9858432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7744
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000020A34EEEC90
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Synth Space Ninja 0006 [2020-11-28 224302]', format=5, channels=2, frequency=48000, lengthbytes=537184, lengthpcm=2586112, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.247681.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000020AC968D598
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000020AC968DC58
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9858432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7744
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000020A34EEF050
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 697
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Pad Synth Space NInja 0003 [2020-11-28 223133]', format=5, channels=2, frequency=48000, lengthbytes=492416, lengthpcm=2575360, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.185181.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000020AC968DC58
+[LOG] SoundI::release                          : Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020AC968D748)
+[LOG] SoundI::release                          :     Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020A2E58C108)
+[LOG] SoundI::release                          :     Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020ACD59B308)
+[LOG] SoundI::release                          : Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020A321D9368)
+[LOG] SoundI::release                          :     Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020A2E58BA88)
+[LOG] SoundI::release                          :     Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020ACD59B4B8)
+[WRN] FMOD_OS_Net_Listen                       : Cannot listen for connections, port 9264 is currently in use.
+[WRN] FMOD_OS_Net_Listen                       : Cannot listen for connections, port 9264 is currently in use.
+[LOG] SystemI::createSound                     : filename = Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000020AC968D748 : node = 0000020A34EEF080
+[LOG] SystemI::createSound                     : add node to async list : head = 0000020AA61907E8.  list count = 0
+[LOG] SystemI::createSound                     : filename = Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000020AC968D748
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0000020AC968D3E8 : node = 0000020A34EEF1C0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000020AA61907E8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9858432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7744
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000020A34EEF190
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Synth Space Ninja 0006 [2020-11-28 224302]', format=5, channels=2, frequency=48000, lengthbytes=537184, lengthpcm=2586112, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.247681.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000020AC968D748
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000020AC968D3E8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Audio\FMOD\Space_Ninja_3D\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9858432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7744
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000020A34EEF2D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 697
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Pad Synth Space NInja 0003 [2020-11-28 223133]', format=5, channels=2, frequency=48000, lengthbytes=492416, lengthpcm=2575360, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.185181.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000020AC968D3E8
+[LOG] SoundI::release                          : Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020AC968DC58)
+[LOG] SoundI::release                          :     Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020A2E58BDC8)
+[LOG] SoundI::release                          :     Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020ACD59B158)
+[LOG] SoundI::release                          : Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020AC968D598)
+[LOG] SoundI::release                          :     Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020A2E58CE08)
+[LOG] SoundI::release                          :     Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020ACD59B668)
+[LOG] SoundI::release                          : Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020AC968D3E8)
+[LOG] SoundI::release                          :     Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020A2E58BA88)
+[LOG] SoundI::release                          :     Pad Synth Space NInja 0003 [2020-11-28 223133] (0000020ACD59B308)
+[LOG] SoundI::release                          : Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020AC968D748)
+[LOG] SoundI::release                          :     Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020A2E58C108)
+[LOG] SoundI::release                          :     Bass Synth Space Ninja 0006 [2020-11-28 224302] (0000020ACD59B4B8)
+[WRN] FMOD_OS_Net_Listen                       : Cannot listen for connections, port 9264 is currently in use.
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
